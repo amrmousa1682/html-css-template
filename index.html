@@ -14,15 +14,18 @@
       href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
+    <script src="script/main.js"></script>
   </head>
 
   <body>
-    <div class="header">
+    <div class="header" id="header">
       <div class="container">
         <img src="image/logo.png" alt="" class="logo" />
-        <div class="menu">
-          <span class="icon"> <span></span><span></span><span></span> </span>
-          <ul class="links">
+        <div class="menu" onclick="fun2(event)">
+          <span class="icon">
+            <span></span><span id="sp"></span><span></span>
+          </span>
+          <ul class="links" id="links">
             <li>
               <a href="#services">services</a>
             </li>
@@ -192,18 +195,17 @@
       <h2 class="special-heading">contact</h2>
       <p>we ar born to create</p>
       <div class="container">
-            <h3>fell free to drop us a line at</h3>
-            <h3>leanoagency@gmail.com</h3>
-            <p>find us on social media</p>
-            <i class="fab fa-facebook"></i>
-            <i class="fab fa-google-plus-g"></i>
-            <i class="fab fa-twitter"></i>
+        <h3>fell free to drop us a line at</h3>
+        <h3>leanoagency@gmail.com</h3>
+        <p>find us on social media</p>
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-google-plus-g"></i>
+        <i class="fab fa-twitter"></i>
       </div>
     </div>
     <div class="footer">
-        <p>
-            &copy; 2019-<span>leon</span> all rights reserve
-        </p>
+      <p>&copy; 2019-<span>leon</span> all rights reserve</p>
     </div>
+    <i class="fas fa-arrow-up" onclick="fun1(this)" id ="scrbtn"></i>
   </body>
 </html>
